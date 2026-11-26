@@ -27,8 +27,10 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/Adamhamdy-Curiiie/Adamhamdy-Curiiie/pull/1) in [Adamhamdy-Curiiie/Adamhamdy-Curiiie](https://github.com/Adamhamdy-Curiiie/Adamhamdy-Curiiie)
-2. 💪 Opened PR [#1](https://github.com/Adamhamdy-Curiiie/Adamhamdy-Curiiie/pull/1) in [Adamhamdy-Curiiie/Adamhamdy-Curiiie](https://github.com/Adamhamdy-Curiiie/Adamhamdy-Curiiie)
+1. 🎉 Merged PR [#2](https://github.com/Adamhamdy-Curiiie/Adamhamdy-Curiiie/pull/2) in [Adamhamdy-Curiiie/Adamhamdy-Curiiie](https://github.com/Adamhamdy-Curiiie/Adamhamdy-Curiiie)
+2. 💪 Opened PR [#2](https://github.com/Adamhamdy-Curiiie/Adamhamdy-Curiiie/pull/2) in [Adamhamdy-Curiiie/Adamhamdy-Curiiie](https://github.com/Adamhamdy-Curiiie/Adamhamdy-Curiiie)
+3. 🎉 Merged PR [#1](https://github.com/Adamhamdy-Curiiie/Adamhamdy-Curiiie/pull/1) in [Adamhamdy-Curiiie/Adamhamdy-Curiiie](https://github.com/Adamhamdy-Curiiie/Adamhamdy-Curiiie)
+4. 💪 Opened PR [#1](https://github.com/Adamhamdy-Curiiie/Adamhamdy-Curiiie/pull/1) in [Adamhamdy-Curiiie/Adamhamdy-Curiiie](https://github.com/Adamhamdy-Curiiie/Adamhamdy-Curiiie)
 <!--END_SECTION:activity-->
 
 <p align="center">
