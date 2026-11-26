@@ -1,0 +1,39 @@
+name: Recent Activity
+
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: recent-activity-${{ github.ref }}
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ github.ref_name }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Clear previous activity entries
+        # The pinned action only writes all available entries into an empty section.
+        run: |
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+
+          readme = Path('README.md')
+          activity_section = rb'(?ms)^(<!--START_SECTION:activity-->\r?\n).*?(^<!--END_SECTION:activity-->\r?$)'
+          readme.write_bytes(re.sub(activity_section, rb'\1\2', readme.read_bytes(), count=1))
+          PY
+
+      - name: Update README activity
+        uses: jamesgeorge007/github-activity-readme@v0.5.0
+        with:
+          MAX_LINES: 5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
